@@ -3,6 +3,9 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "exports": {
+    "./tailwind.config.js": "./tailwind.config.js"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
