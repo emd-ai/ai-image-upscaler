@@ -16,5 +16,11 @@ export default defineConfig({
   },
   optimizeDeps: {
     include: ['react', 'react-dom'],
+    exclude: ['@auth0/auth0-react']
   },
+  build: {
+    rollupOptions: {
+      external: ['@auth0/auth0-react']
+    }
+  }
 })
