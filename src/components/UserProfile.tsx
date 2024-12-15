@@ -1,5 +1,5 @@
 import React from 'react';
-import { useAuth } from '../contexts/AuthContext';
+import { useAuth } from '../contexts/LocalAuthContext';
 import { Line } from 'react-chartjs-2';
 import {
   Chart as ChartJS,
